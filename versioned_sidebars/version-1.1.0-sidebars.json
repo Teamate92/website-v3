@@ -1,0 +1,81 @@
+{
+  "GenericInofsSidebar": [
+    "generic-infos/what-is-etp",
+    "generic-infos/why-you-need-etp",
+    "generic-infos/select-your-offer",
+    {
+      "Ressource": [
+        "generic-infos/ressource/etp-platform-url",
+        "generic-infos/ressource/open-api-files",
+        "generic-infos/ressource/postman-files"
+      ],
+      "Tutorials": [
+        "generic-infos/tutorials/how-to-generate-access-token",
+        "generic-infos/tutorials/how-to-enroll-a-device"
+      ]
+    },
+    "generic-infos/faq",
+    "generic-infos/etp-glossary"
+  ],
+  "UseCasesSidebar": [
+    "use-cases/device-prerequisite",
+    "use-cases/enroll-bootstrap",
+    "use-cases/send-data",
+    "use-cases/receive-commands",
+    "use-cases/monitoring",
+    "use-cases/management"
+  ],
+  "CloudPrerequisiteSidebar": [
+    "cloud-prerequisite/open-a-tenant",
+    "cloud-prerequisite/how-to-generate-access-token",
+    "cloud-prerequisite/how-to-create-ressource-group",
+    "cloud-prerequisite/service-account-roles",
+    "cloud-prerequisite/device-whitelisting",
+    "cloud-prerequisite/device-id-convention"
+  ],
+  "SensorsSidebar": [
+    "sensors/introduction",
+    "sensors/device-prerequisite",
+    "sensors/enroll-bootstrap",
+    "sensors/send-data",
+    "sensors/receive-commands",
+    "sensors/monitoring",
+    "sensors/management"
+  ],
+  "ConstraintDevicesSidebar": [
+    "constraint-devices/introduction",
+    "constraint-devices/device-prerequisite",
+    "constraint-devices/enroll-bootstrap",
+    "constraint-devices/send-data",
+    "constraint-devices/receive-commands",
+    "constraint-devices/monitoring",
+    "constraint-devices/management"
+  ],
+  "IoTDevicesSidebar": [
+    "iot-devices/introduction",
+    "iot-devices/device-prerequisite",
+    "iot-devices/enroll-bootstrap",
+    "iot-devices/send-data",
+    "iot-devices/receive-commands",
+    "iot-devices/monitoring",
+    "iot-devices/management"
+  ],
+  "SmallGatewaySidebar": [
+    "small-gateway/introduction",
+    "small-gateway/device-prerequisite",
+    "small-gateway/enroll-bootstrap",
+    "small-gateway/send-data",
+    "small-gateway/receive-commands",
+    "small-gateway/monitoring",
+    "small-gateway/management"
+  ],
+  "BigGatewaySidebar": [
+    "big-gateway/introduction",
+    "big-gateway/device-prerequisite",
+    "big-gateway/enroll-bootstrap",
+    "big-gateway/send-data",
+    "big-gateway/receive-commands",
+    "big-gateway/monitoring",
+    "big-gateway/management"
+  ]
+}
