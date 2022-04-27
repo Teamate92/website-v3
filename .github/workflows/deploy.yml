@@ -18,9 +18,9 @@ jobs:
        
       - name: yarn build
         env: 
-          GIT_USER: ${{ TeamAte92 }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
          yarn install
          yarn build
-         git remote add origin https://@github.com/Teamate92/website-v3.git
+         git remote add origin https://git:${GITHUB_TOKEN}@github.io/${GITHUB_REPOSITORY}.git
          yarn deploy
