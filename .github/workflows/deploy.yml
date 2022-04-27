@@ -41,6 +41,3 @@ jobs:
           user_name: github-actions[bot]
           user_email: 41898282+github-actions[bot]@users.noreply.github.com
           
-      - run: | 
-          git commit --allow-empty -m "Empty commit"
-          git push origin --force gh-pages
