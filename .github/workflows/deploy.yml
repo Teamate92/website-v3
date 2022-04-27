@@ -14,7 +14,13 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install
-      - run: npm run build
-      - run: npm install -global yarn
-      - run: GIT_USER=657527 yarn deploy
+      - run: npm install --global yarn
+       
+      - name: yarn build
+        env: 
+          GIT_USER: ${{ TeamAte92 }}
+        run: |
+         yarn install
+         yarn build
+         git remote add origin  https://Teamate92:TeamAte9285374@github.com/Teamate92/website-v3.git
+         yarn deploy
