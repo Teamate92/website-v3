@@ -29,4 +29,4 @@ jobs:
           yarn install
           yarn build
           git remote set-url origin https://git:${GITHUB_TOKEN}@teamate92.github.io/${GITHUB_REPOSITORY}.git
-          yarn deploy -u "github-actions-bot <actions-bot@teamate92.github.io>"
+          yarn deploy "github-actions-bot <actions-bot@teamate92.github.io>"
