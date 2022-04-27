@@ -15,5 +15,6 @@ jobs:
         with:
           node-version: '14'
       - run: npm install
+      - run: npm run build
       - run: npm install -global yarn
       - run: GIT_USER=657527 yarn deploy
