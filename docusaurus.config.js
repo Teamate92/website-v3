@@ -26,7 +26,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.schneider-electric.com/IoT/cdm-user-documentation/blob/master',
+          editUrl: 'https://github.com/Teamate92/website-v3/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
