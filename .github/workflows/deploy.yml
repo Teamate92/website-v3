@@ -22,10 +22,8 @@ jobs:
 
       - name: yarn build
         env:
-          NEXUS_TOKEN: ${{ secrets.NEXUS_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.LMU_ADMIN_TOKEN }}
         run: |
-          docker ps
           yarn install
           yarn build
           git remote set-url origin https://git:${GITHUB_TOKEN}@teamate92.github.io/${GITHUB_REPOSITORY}.git
