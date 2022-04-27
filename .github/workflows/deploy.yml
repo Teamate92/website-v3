@@ -14,9 +14,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '14'
-      - run: npm install npx
-      - run: npx create-docusaurus@latest website classic
-      - run: cd website
       - run: npm run start
       - run: npm run serve
       - run: npm install -global yarn
