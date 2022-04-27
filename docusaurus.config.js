@@ -8,16 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Connectivity Device Managment',
   tagline: 'Schneider Electric',
-  url: 'https://pages.github.schneider-electric.com',
-  baseUrl: '/IoT/cdm-user-documentation/',
+  url: 'https://teamate92.github.io',
+  baseUrl: '/website-v3/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'IoT', // Usually your GitHub org/user name.
-  projectName: 'cdm-user-documentation', // Usually your repo name.
+  organizationName: 'teamate92', // Usually your GitHub org/user name.
+  projectName: 'website-v3', // Usually your repo name.
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
-  githubHost:'github.schneider-electric.com',
 
   presets: [
     [
