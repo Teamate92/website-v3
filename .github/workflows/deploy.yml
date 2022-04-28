@@ -22,6 +22,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
          yarn install
-         yarn build
+         yarn run build
          git remote add origin https://git:${GITHUB_TOKEN}@github.io/${GITHUB_REPOSITORY}.git
          yarn deploy "github-actions-bot <actions-bot@github.io>"
